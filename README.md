@@ -58,10 +58,8 @@ locust -f mock_user.py
 
 5. **Access the Locust Web Interface**
 
-- Open a web browser and navigate` to http://localhost:8089 to configure and start the load test.
-
+- Open a web browser and navigate to http://localhost:8089 to configure and start the load test.
 - Configure and Run the Test
-
 - Set the number of total users and the spawn rate.
 - Start the test and monitor the results in real-time.
 - Load Testing Results
@@ -80,7 +78,8 @@ locust -f mock_user.py
 
 This repository demonstrates how to use Locust for load testing a Python Flask web server. By running tests with varying user loads, you can gauge the performance and scalability of your application under stress.
 
-For more information on Locust and its capabilities, visit the Locust Documentation.
+For more information on Locust and its capabilities, visit the [Locust Documentation](https://docs.locust.io/en/stable/).
 
 ## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
